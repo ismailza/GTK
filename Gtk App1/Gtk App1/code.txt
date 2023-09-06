@@ -1,0 +1,3 @@
+<window type=GTK_WINDOW_TOPLEVEL,title=fenetre1,resize=TRUE,modal=TRUE,>
+
+</window>

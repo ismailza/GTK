@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window title="My Window" width="500" height="500" x="0" y="0" Red="65535" Green="65535" Blue="65535" icon="prebot.ico" scroll="always">
+    <box orientation="vertical" name="test">
+        <menu>
+            <item label="File">
+                <item label="New"/>
+                <item label="Open"/>
+                <item label="Save"/>
+                <item label="Save As..."/>
+                <separator/>
+                <item label="Quit"/>
+            </item>
+            <item label="Edit">
+                <item label="Cut"/>
+                <item label="Copy"/>
+                <item label="Paste"/>
+                <item label="Delete"/>
+            </item>
+            <item label="View">
+                <item label="Toolbar"/>
+                <item label="Status Bar"/>
+            </item>
+            <item label="Help">
+                <item label="About"/>
+            </item>
+        </menu>
+        <fixed>
+            <menu x="0" y="0">
+                <item label="File">
+                    <item label="New"/>
+                    <item label="Open"/>
+                    <item label="Save"/>
+                    <item label="Save As..."/>
+                    <separator/>
+                    <item label="Quit"/>
+                </item>
+                <item label="Edit">
+                    <item label="Cut"/>
+                    <item label="Copy"/>
+                    <item label="Paste"/>
+                    <item label="Delete"/>
+                </item>
+                <item label="View">
+                    <item label="Toolbar"/>
+                    <item label="Status Bar"/>
+                </item>
+                <item label="Help">
+                    <item label="About"/>
+                </item>
+            </menu>
+            <combo x="50" y="50" width="200">
+                <item label="Faire un choix"/>
+                <item label="0"/>
+                <item label="1"/>
+                <item label="2"/>
+            </combo>
+            <simplebutton label="salam" x="100" y="100"/>
+            <radiobutton label="test" x="50" y="150"/>
+            <image file="prebot.ico" width="0" height="0" x="100" y="200"/>
+            <label text="salam , toto" justify="right" x="50" y="250"/>
+            <textview text="Hello toto" weight="gras" size="20" background="white" forground="red" x="100" y="300"/>
+            <scale orientation="horizontal" min_value="0" max_value="500" value="250" x="50" y="350" width="200"/>
+            <entry text="test" editable="FALSE" visible="FALSE" invisiblechar="X" x="100" y="400"/>
+        </fixed>
+        <grid column_spacing="10" row_spacing="10">
+            <row>
+                <grid column_spacing="10" row_spacing="10">
+                    <row>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                    </row>
+                    <row>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                        <simplebutton image="prebot.ico"/>
+                    </row>
+                </grid>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+            </row>
+            <row>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+            </row>
+            <row>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+                <simplebutton image="prebot.ico"/>
+            </row>
+        </grid>
+    </box>
+</window>

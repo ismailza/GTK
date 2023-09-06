@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "gbox-window.h": "c",
+        "chks-view.h": "c",
+        "ttt-view.h": "c",
+        "gbox-preview.h": "c",
+        "gameended.h": "c",
+        "gtk.h": "c",
+        "gst.h": "c",
+        "bit": "c",
+        "compare": "c",
+        "list": "c",
+        "string": "c",
+        "limits": "c",
+        "new": "c"
+    }
+}

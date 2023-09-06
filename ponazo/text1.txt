@@ -1,0 +1,94 @@
+<window type=TOPLEVEL,title=Test,modal=FALSE,req-size=50|50,opacity=1,fullscreen=FALSE,keep-bellow=FALSE,>
+    <child container-add>
+        <box homogeneous=FALSE,orientation=VERTICAL,spacing=2,baseline-position=TOP,>
+            <child pack-start>
+				<menubutton test=RIGHT,>
+                <menu direction=LTR,>
+                    <item label=aaa,>
+                        <item label=bbb,>
+                        </item >
+                        <item label=aaaaa,>
+                        </item >
+                    </item >
+                    <item label=aaa,>
+                        <item label=aaa,>
+                        </item >
+                        <item label=aaa,>
+                        </item >
+                    </item >
+                    <item label=aaa,>
+                        <item label=aaa,>
+                            <item label=aaa,>
+                            </item >
+                            <item label=aaa,>
+                            </item >
+                        </item >
+                        <item label=aaa,>
+                        </item >
+                    </item >
+                </menu >
+				</menubutton>
+            </child>
+            <child pack-start>
+                <toolbar style=TEXT,>
+                    <tolitem label=hhh,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                </toolbar >
+            </child>
+            <child pack-start>
+                <combotext >
+                    <text >yyy</text>
+                    <text >yyy</text>
+                </combotext >
+            </child>
+            <child pack-start>
+                <linkbutton label=yasser,url=https://www.google.com/?hl=fr,vise=FALSE,>
+                </linkbutton>
+            </child>
+            <child pack-start>
+                <entry text=test,>
+                </entry>
+            </child>
+            <child pack-start>
+                <togglebutton label=yasser,>
+                </togglebutton>
+            </child>
+            <child pack-start>
+                <radiobutton label=test,mainrdb=TRUE,>
+                </radiobutton>
+            </child>
+            <child pack-start>
+                <radiobutton label=test1,>
+                </radiobutton>
+            </child>
+            <child pack-start>
+                <radiobutton label=test1,>
+                </radiobutton>
+            </child>
+            <child pack-start>
+                <checkbutton label=test2-check,>
+                </checkbutton> 
+            </child>
+            <child pack-start>
+                <checkbutton label=test3-check,>
+                </checkbutton>
+            </child>
+            <child pack-start>
+				 <search_bar >
+					<entry text=test,>
+                	</entry>
+				 </search_bar>
+            </child>
+            <child pack-start>
+                <image filename=C:\\Users\\zahir\\Pictures\\logo_fstm.png,>
+                </image>
+            </child>
+        </box >
+    </child>
+</window >

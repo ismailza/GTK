@@ -1,0 +1,3 @@
+D:/C projects/GTK/projet_xml/cmake-build-debug/CMakeFiles/projet_xml.dir
+D:/C projects/GTK/projet_xml/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C projects/GTK/projet_xml/cmake-build-debug/CMakeFiles/rebuild_cache.dir

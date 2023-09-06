@@ -1,0 +1,14 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,title=Test,resia=TRUE,modal=FALSE,rqs=255|255,opa=1,fulls=FALSE,kepb=FALSE,>
+<child headerbar>
+<headbar title=test,subt=test,clbsh=TRUE,>
+</headbar>
+</child>
+<child container-add>
+<box >
+<child attach,0,0,10,10>
+<sclbutton >
+</sclbutton>
+</child>
+</box>
+</child>
+</window >

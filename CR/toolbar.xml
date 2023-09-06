@@ -1,0 +1,35 @@
+<object class=window id=window1 >
+	<property name=Hauteur > 500 </property>
+	<property name=title > WindowTest </property>
+	<property name=Largeur > 500 </property>
+	<child >
+        <object class=box id=hbox1 >
+            <property name=homogeneous > false </property>
+            <property name=orientation > 1 </property>
+            <child >
+                <object class=toolbar id=menu1 >
+                    <child >	
+                        <object class=toolitem id=toolitem1 >
+                            <property name=title > 1 </property>
+                        </object >
+                    </child >
+                    <child >
+                        <object class=toolitem id=toolitem3 >
+                            <property name=title > 2 </property>
+                        </object >
+                        </child >
+                        <child >
+                            <object class=toolitem id=toolitem6 >
+                                <property name=title > 3 </property>
+                            </object >
+                        </child >
+                        <child >
+                            <object class=toolitem id=toolitem12 >
+                                <property name=title > 4 </property>
+                            </object >
+                    </child >
+                </object >
+            </child >
+        </object >
+    </child >
+</object >

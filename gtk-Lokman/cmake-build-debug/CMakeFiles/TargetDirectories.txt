@@ -1,0 +1,3 @@
+D:/GTK/gtk-Lokman/cmake-build-debug/CMakeFiles/gtk-Lokman.dir
+D:/GTK/gtk-Lokman/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GTK/gtk-Lokman/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,25 @@
+﻿  Main.c
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(100,5): error C4996: 'gtk_widget_override_background_color': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(777,16): warning C4101: 'pixbuf': unreferenced local variable
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1347,34): warning C4090: 'function': different 'const' qualifiers
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1709,52): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1710,51): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1711,51): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1712,51): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1713,51): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1709,26): error C4996: 'gtk_image_new_from_stock': is deprecated. Use 'gtk_image_new_from_icon_name' instead
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1710,25): error C4996: 'gtk_image_new_from_stock': is deprecated. Use 'gtk_image_new_from_icon_name' instead
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1711,25): error C4996: 'gtk_image_new_from_stock': is deprecated. Use 'gtk_image_new_from_icon_name' instead
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1712,25): error C4996: 'gtk_image_new_from_stock': is deprecated. Use 'gtk_image_new_from_icon_name' instead
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1713,25): error C4996: 'gtk_image_new_from_stock': is deprecated. Use 'gtk_image_new_from_icon_name' instead
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(1699,16): warning C4101: 'content_area': unreferenced local variable
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(2376,40): warning C4133: 'function': incompatible types - from 'GtkWidget *' to 'GtkHeaderBar *'
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(2378,34): warning C4133: 'function': incompatible types - from 'GtkWidget *' to 'GtkHeaderBar *'
+D:\C projects\GTK\Gtk App2\Gtk App2\macros.c(2559,26): warning C4101: 'elem_supp': unreferenced local variable
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(247,11): warning C4101: 'malade': unreferenced local variable
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(915,10): warning C4101: 'j': unreferenced local variable
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(922,45): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(923,15): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(946,43): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(947,14): error C4996: 'GtkStock': was declared deprecated
+D:\C projects\GTK\Gtk App2\Gtk App2\deplacement.c(1081,35): warning C4101: 'lable': unreferenced local variable

@@ -1,0 +1,109 @@
+<object class=window id=window1 >
+	<property name=Hauteur > 250 </property>
+	<property name=title > hicham </property>
+	<property name=Largeur > 50 </property>
+	<child >
+		<object class=frame id=frame1 >
+			<property name=label > game </property>
+			<property name=label_xalign > 0.5 </property>
+			<property name=label_yalign > 0.5 </property>
+			<property name=shadow_type > 2 </property>
+			<property name=hauteur > 250 </property>
+			<property name=largeur > 250 </property>
+			<child >
+	
+				<object class=box id=vbox5 >
+					<property name=homogeneous > false </property>
+					<property name=orientation > 0 </property>
+					<child >
+						<object class=box id=hbox1 >
+							<property name=homogeneous > false </property>
+							<property name=orientation > 1 </property>
+							<child >
+								<object class=menubar id=menu1 >
+									<child >	
+										<object class=menuchamp id=menuchamps1 >
+											<property name=title > file </property>
+											<child >
+												<object class=menuitem id=menuitem1 >
+													<property name=title > quit </property>
+												</object >
+											</child >
+											<child >
+												<object class=sousmenu id=menuitem2 >
+													<property name=title > new </property>
+													<child >
+														<object class=menuitem id=menuitem3 >
+															<property name=title > word </property>
+														</object >
+													</child >
+													<child >
+														<object class=menuitem id=menuitem4 >
+															<property name=title > pdf </property>
+														</object >
+													</child >
+												</object >
+											</child >
+										</object >
+									</child >
+									<child >	
+										<object class=menuchamp id=menuchamps7 >
+											<property name=title > Edit </property>
+											<child >
+												<object class=menuitem id=menuitem5 >
+													<property name=title > CopyAction </property>
+												</object >
+											</child >
+											<child >
+												<object class=menuitem id=menuitem6 >
+													<property name=title > CutAction </property>
+												</object >
+											</child >
+										</object >
+									</child >
+								</object >
+							</child >
+						</object >
+					</child >
+					<child >
+						<object class=box id=hbox5 >
+							<property name=homogeneous > false </property>
+							<property name=orientation > 0 </property>
+							<child >	
+								<object class=button id=button1 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=padding > 5 </property>
+									<property name=label > click </property>
+									<property name=size > 30 </property>
+								</object >
+							</child >
+							<child >	
+								<object class=button id=button2 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=padding > 5 </property>
+									<property name=label > quit </property>
+									<property name=size > 2 </property>
+								</object >
+							</child >
+							<child >
+								<object class=textview id=tv1 >
+									<property name=size > 30 </property>
+									<property name=left-marging > 30 </property>
+									<property name=background > black </property>
+									<property name=foreground > yellow </property>
+									<property name=style > italic </property>
+									<property name=weight > bold </property>
+									<property name=text > Hi,_I_am_Salah_Eddine. </property>
+								</object >
+							</child >
+						</object >
+					</child >
+				</object >		
+			</child >
+		</object >	
+	</child >
+</object >

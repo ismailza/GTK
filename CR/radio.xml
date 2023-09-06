@@ -1,0 +1,18 @@
+<object class=radiogropup id=groupradio1 >
+    <property name=homogeneous > false </property>
+	<property name=orientation > 0 </property>
+    <child >
+        <object class=radios id=groupradio2 >
+            <property name=nemonic > 1 </property>
+            <property name=nom >  radiobtn </property>
+            <property name=label > option2 </property>
+        </object >
+    </child >
+    <child >
+        <object class=radios id=groupradio3 >
+            <property name=nemonic > 1 </property>
+            <property name=nom >  radiobtn </property>
+            <property name=label > option3 </property>
+        </object >
+    </child >
+</object >

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7b03bd37-ab95-4f40-94c1-b6fcb5958c3c}</ProjectGuid>
+    <RootNamespace>Gtk_App1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\vcpkg\installed\x86-windows\include\gtk-3.0;C:\vcpkg\installed\x86-windows\include\glib-2.0;C:\vcpkg\installed\x86-windows\lib\glib-2.0\include;C:\vcpkg\installed\x86-windows\include\pango-1.0;C:\vcpkg\installed\x86-windows\include\cairo;C:\vcpkg\installed\x86-windows\include\harfbuzz;C:\vcpkg\installed\x86-windows\include\gdk-pixbuf-2.0;C:\vcpkg\installed\x86-windows\include\atk-1.0</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4141;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\vcpkg\installed\x86-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>atk-1.0.lib;cairo.lib;gtk-3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\vcpkg\installed\x86-windows\include\gtk-3.0;C:\vcpkg\installed\x86-windows\include\glib-2.0;C:\vcpkg\installed\x86-windows\lib\glib-2.0\include;C:\vcpkg\installed\x86-windows\include\pango-1.0;C:\vcpkg\installed\x86-windows\include\cairo;C:\vcpkg\installed\x86-windows\include\harfbuzz;C:\vcpkg\installed\x86-windows\include\gdk-pixbuf-2.0;C:\vcpkg\installed\x86-windows\include\atk-1.0</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4141;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\vcpkg\installed\x86-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>atk-1.0.lib;cairo.lib;gtk-3.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\vcpkg\installed\x64-windows\include\gtk-3.0;C:\vcpkg\installed\x64-windows\include\glib-2.0;C:\vcpkg\installed\x64-windows\lib\glib-2.0\include;C:\vcpkg\installed\x64-windows\include\pango-1.0;C:\vcpkg\installed\x64-windows\include\cairo;C:\vcpkg\installed\x64-windows\include\harfbuzz;C:\vcpkg\installed\x64-windows\include\gdk-pixbuf-2.0;C:\vcpkg\installed\x64-windows\include\atk-1.0</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4141;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\vcpkg\installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>atk-1.0.lib;cairo.lib;gtk-3.lib;gtk-4.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\vcpkg\installed\x64-windows\include\gtk-3.0;C:\vcpkg\installed\x64-windows\include\glib-2.0;C:\vcpkg\installed\x64-windows\lib\glib-2.0\include;C:\vcpkg\installed\x64-windows\include\pango-1.0;C:\vcpkg\installed\x64-windows\include\cairo;C:\vcpkg\installed\x64-windows\include\harfbuzz;C:\vcpkg\installed\x64-windows\include\gdk-pixbuf-2.0;C:\vcpkg\installed\x64-windows\include\atk-1.0</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4141;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\vcpkg\installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>atk-1.0.lib;cairo.lib;gtk-3.lib;gtk-4.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="box.h" />
+    <ClInclude Include="checkbutton.h" />
+    <ClInclude Include="entryr.h" />
+    <ClInclude Include="fenetre.h" />
+    <ClInclude Include="button.h" />
+    <ClInclude Include="combobox.h" />
+    <ClInclude Include="functions.h" />
+    <ClInclude Include="grid.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="linkbutton.h" />
+    <ClInclude Include="label.h" />
+    <ClInclude Include="headerbar.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="principal.h" />
+    <ClInclude Include="radiobutton.h" />
+    <ClInclude Include="searchbar.h" />
+    <ClInclude Include="toggleutton.h" />
+    <ClInclude Include="toolbar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="code.txt" />
+    <Text Include="tags.txt" />
+    <Text Include="text1.txt" />
+    <Text Include="TP.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

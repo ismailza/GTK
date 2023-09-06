@@ -1,0 +1,4 @@
+﻿  Main.c
+D:\C projects\GTK\Gtk App3\Gtk App3\Main.c(35,18): error C4996: 'gtk_table_new': is deprecated. Use 'GtkGrid' instead
+D:\C projects\GTK\Gtk App3\Gtk App3\Main.c(51,5): error C4996: 'gtk_table_attach': is deprecated. Use 'GtkGrid' instead
+D:\C projects\GTK\Gtk App3\Gtk App3\Main.c(55,5): error C4996: 'gtk_table_attach': is deprecated. Use 'GtkGrid' instead

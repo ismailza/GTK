@@ -1,0 +1,181 @@
+<window acc=TRUE,title=Test des fonction GTK+,dfs=800|800,ico=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+    <child container-add>
+        <scrollwin >
+            <child container-add>
+                <fixed >
+                    <child 0|0>
+                        <menu dir=GTK_PACK_DIRECTION_LTR,>
+                            <item label=_Fichier,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                <item label=_Enregistrer,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                </item >
+                                <item label=_Enregistrer Sous,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                </item >
+                                <item label=_Enregistrer au format PDF,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                </item >
+                                <item label=_Ouvrir,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                </item >
+                                <item label=_Fermer,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,signal=destroy,>
+                                </item >
+                            </item >
+                            <item label=_Accueil,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                <item label=_Add in,icon=zoom-in,short=b,signal=TRUE,>
+                                </item >
+                                <item label=_View,icon=zoom-in,short=c,signal=TRUE,>
+                                    <item label=_Choix1,>
+                                    </item >
+                                    <item label=_Choix2,>
+                                    </item >
+                                    <item label=_Choix3,>
+                                    </item >
+                                </item >
+                                <item label=_Print,icon=zoom-in,short=f,signal=TRUE,>
+                                </item >
+                            </item >
+                            <item label=_Insertion,icon=D:\\C projects\\GTK\\Ismail_ZAHIR\\icon.png,>
+                                <item label=_item1,>
+                                </item >
+                                <item label=_item2,>
+                                </item >
+                                <item label=_item3,>
+                                </item >
+                            </item >
+                        </menu >
+                    </child>
+                    <child 500|60>
+                        <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                            <child pack-start>
+                                <label labna=Liste Choix Multiples,xlig=0,></label>
+                            </child>
+                            <child pack-start>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                    <child pack-start>
+                                        <ckbutton label=Mon 1er Choix,></ckbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <ckbutton label=Mon 2d Choix,></ckbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <ckbutton label=Mon 3e Choix,></ckbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <ckbutton label=Mon dernier Choix,></ckbutton>
+                                    </child>
+                                </box >
+                            </child>
+                        </box >
+                    </child>
+                    <child 0|300>
+                        <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                            <child pack-start>
+                                <label labna=Liste Deroulante: Multi Choix,xlig=0,></label>
+                            </child>
+                            <child pack-start>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                    <child pack-start>
+                                        <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                            <child pack-start>
+                                                <label labna=Choix parmis 5:,xlig=0,></label>
+                                            </child>
+                                            <child pack-start>
+                                                <combotext >
+                                                    <text value=choix5,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix4,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix3,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix2,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix1,visib=TRUE,numvis=0,></text >
+                                                    <text value=Faites votre choix,visib=TRUE,numvis=0,></text >
+                                                </combotext >
+                                            </child >
+                                        </box >
+                                    </child >
+                                    <child pack-start>
+                                        <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                            <child pack-start>
+                                                <label labna=Choix parmis 5:,xlig=0,></label>
+                                            </child>
+                                            <child pack-start>
+                                                <combotext >
+                                                    <text value=choix7,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix6,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix5,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix4,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix3,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix2,visib=TRUE,numvis=0,></text >
+                                                    <text value=choix1,visib=TRUE,numvis=0,></text >
+                                                    <text value=Faites votre choix,visib=TRUE,numvis=0,></text >
+                                                </combotext >
+                                            </child >
+                                        </box >
+                                    </child>
+                                </box >
+                            </child >
+                        </box >
+                    </child >
+                    <child 500|300>
+                        <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                            <child pack-start>
+                                <label labna=Buttons Radio Horizontales,xlig=0,></label>
+                            </child>
+                            <child pack-start>
+                                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                                    <child pack-start>
+                                        <rdbutton label=Premier,mainrdb=TRUE,>
+                                        </rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Deuxième,>
+                                        </rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Bien,>
+                                        </rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Troisime,>
+                                        </rdbutton>
+                                    </child>
+                                </box >
+                            </child>
+                        </box >
+                    </child>
+                    <child 0|500>
+                        <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                            <child pack-start>
+                                <btn mnemonic=OK,back=* { background-image:url("redblackback.jpg");},signal=func,>                                </btn>
+                            </child>
+                            <child pack-start>
+                                <btn mnemonic=Quitter,signal=destroy,></btn>
+                            </child>
+                        </box >
+                    </child>
+                    <child 0|600>
+                        <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                            <child pack-start>
+                                <label labna=Buttons Radio Verticales,xlig=0,></label>
+                            </child>
+                            <child pack-start>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,border=* { border: black solid 2px;},>
+                                    <child pack-start>
+                                        <rdbutton label=Faible,mainrdb=TRUE,></rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Moyen,></rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Assez Bien,></rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=Bien,></rdbutton>
+                                    </child>
+                                    <child pack-start>
+                                        <rdbutton label=T.Bien,></rdbutton>
+                                    </child>
+                                </box >
+                            </child>
+                        </box >
+                    </child>
+                </fixed>
+            </child>
+        </scrollwin>
+    </child>
+</window >

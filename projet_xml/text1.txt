@@ -1,0 +1,98 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,title=Test,modal=FALSE,rqs=50|50,opa=1,fulls=FALSE,kepb=FALSE,>
+    <child headerbar>
+        <headbar title=test,subt=test,clbsh=TRUE,>
+        </headbar>
+    </child>
+    <child container-add>
+        <box hom=FALSE,orien=GTK_ORIENTATION_VERTICAL,spac=2,baslp=GTK_BASELINE_POSITION_TOP,>
+            <child pack-start>
+				<mnbutton test=GTK_ARROW_RIGHT,>
+                <menu dir=GTK_PACK_DIRECTION_LTR,>
+                    <item label=aaa,>
+                        <item label=bbb,>
+                        </item >
+                        <item label=aaaaa,>
+                        </item >
+                    </item >
+                    <item label=aaa,>
+                        <item label=aaa,>
+                        </item >
+                        <item label=aaa,>
+                        </item >
+                    </item >
+                    <item label=aaa,>
+                        <item label=aaa,>
+                            <item label=aaa,>
+                            </item >
+                            <item label=aaa,>
+                            </item >
+                        </item >
+                        <item label=aaa,>
+                        </item >
+                    </item >
+                </menu >
+				</mnbutton>
+            </child>
+            <child pack-start>
+                <toolbar styl=GTK_TOOLBAR_TEXT,>
+                    <tolitem label=hhh,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                    <tolitem label=sss,>
+                    </tolitem>
+                </toolbar >
+            </child>
+            <child pack-start>
+                <combotext >
+                    <text >yyy</text>
+                    <text >yyy</text>
+                </combotext >
+            </child>
+            <child pack-start>
+                <linkbutton label=yasser,url=https://www.google.com/?hl=fr,vise=FALSE,>
+                </linkbutton>
+            </child>
+            <child pack-start>
+                <entry text=test,>
+                </entry>
+            </child>
+            <child pack-start>
+                <tglbutton label=yasser,>
+                </tglbutton>
+            </child>
+            <child pack-start>
+                <rdbutton label=test,mainrdb=TRUE,>
+                </rdbutton>
+            </child>
+            <child pack-start>
+                <rdbutton label=test1,>
+                </rdbutton>
+            </child>
+            <child pack-start>
+                <rdbutton label=test1,>
+                </rdbutton>
+            </child>
+            <child pack-start>
+                <ckbutton label=test2-check,>
+                </ckbutton>
+            </child>
+            <child pack-start>
+                <ckbutton label=test3-check,>
+                </ckbutton>
+            </child>
+            <child pack-start>
+				 <search_bar >
+					<entry text=test,>
+                	</entry>
+				 </search_bar>
+            </child>
+            <child pack-start>
+                <image nmfil=C:\\Users\\USER\\Desktop\\zzz.png,>
+                </image>
+            </child>
+        </box >
+    </child>
+</window >

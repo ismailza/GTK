@@ -1,0 +1,3 @@
+D:/C projects/GTK/Ismail_ZAHIR/cmake-build-debug/CMakeFiles/Ismail_ZAHIR.dir
+D:/C projects/GTK/Ismail_ZAHIR/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C projects/GTK/Ismail_ZAHIR/cmake-build-debug/CMakeFiles/rebuild_cache.dir

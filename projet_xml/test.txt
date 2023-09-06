@@ -1,0 +1,74 @@
+
+<window typewin=GTK_WINDOW_TOPLEVEL,title=Test,resia=TRUE,modal=FALSE,rqs=255|255,opa=1,fulls=FALSE,kepb=FALSE,>
+
+<child headerbar>
+<headbar title=test,subt=test,clbsh=TRUE,declay=,menu:minimize,maximaze,>
+</headbar>
+</child>
+
+<child box-container-add,>
+<box>
+<child pack-start>
+<menu direc=GTK_PACK_DIRECTION_LTR,>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,></item>
+</item>
+</menu>
+</child>
+
+<child pack-end>
+<toolbar shoar=TRUE,icsiz=GTK_ICON_SIZE_BUTTON,styl=GTK_TOOLBAR_BOTH,>
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+</toolbar >
+</child>
+
+<child pack-end>
+<box>
+<child pack-start>
+<combotext >
+<text >yyyyyyyyyyyyy</text>
+<text >yyyyyyyyyyyyy</text>
+<text >yyyyyyyyyyyyy</text>
+<text >yyyyyyyyyyyyy</text>
+</combotext >
+</child>
+<child pack-end>
+<entry text=,vis=,mxen=,fram=,alig=,plah=,ovew=,icpos=,icnam=,tooltex=,purp=,hints=,>
+</entry>
+</child>
+<child pack-end>
+<image filna=,anmf=,icona=,icons=,pix=,>
+</image>
+</child>
+<child pack-end>
+<btn lab=,mnemonic=,bticf=,ics=,rlt=,usun=,impos=,>
+</btn>
+</child>
+</box>
+</child>
+</box>
+</child>
+</box>
+</child>
+</box>
+</child>
+</window>

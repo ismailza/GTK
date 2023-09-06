@@ -1,0 +1,7 @@
+<window type=TOPLEVEL,icon=D:\\C projects\\GTK\\Gtk App1\\Gtk App1\\icon.png,>
+	<child headerbar>
+		<headbar title=TP GTK,>
+		</headbar>
+	</child >
+
+</window >

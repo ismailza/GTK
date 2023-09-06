@@ -1,0 +1,184 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,title=Test des fonction GTK+,dfs=800|300,ico=C:\\Users\\USER\\Desktop\\GTK\\exam_tp\\icon.png,back=* { background-image:url("whiteback.jpg");},>
+    <child container-add>
+        <box orien=GTK_ORIENTATION_VERTICAL,spac=9,>
+            <child pack-start>
+                <scrollwin >
+                    <child container-add>
+                        <layout >
+                            <child 0|0>
+                                <menu dir=GTK_PACK_DIRECTION_LTR,>
+                                    <item label=aaa,>
+                                        <item label=bbb,>
+                                        </item >
+                                        <item label=aaaaa,>
+                                        </item >
+                                    </item >
+                                    <item label=aaa,>
+                                        <item label=aaa,>
+                                        </item >
+                                        <item label=aaa,>
+                                        </item >
+                                    </item >
+                                    <item label=aaa,>
+                                        <item label=aaa,>
+                                            <item label=aaa,>
+                                            </item >
+                                            <item label=aaa,>
+                                            </item >
+                                        </item >
+                                        <item label=aaa,>
+                                        </item >
+                                    </item >
+                                </menu >
+                            </child>
+                            <child 0|50>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                    <child pack-start>
+                                        <label labna=Vos connaissances de GTK+,>
+                                        </label>
+                                    </child>
+                                    <child pack-start>
+                                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                                            <child pack-start>
+                                                <rdbutton label=Faible,mainrdb=TRUE,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Moyen,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Bien,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Trés bien,>
+                                                </rdbutton>
+                                            </child>
+                                        </box >
+                                    </child>
+                                </box >
+                            </child>
+                            <child 0|100>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                    <child pack-start>
+                                        <label labna=Vos commentaires de GTK+,>
+                                        </label>
+                                    </child>
+                                    <child pack-start>
+                                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                                            <child pack-start>
+                                                <ckbutton label=Convivial,>
+                                                </ckbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <ckbutton label=Intéressant,>
+                                                </ckbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <ckbutton label=Facile à utiliser,>
+                                                </ckbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <ckbutton label=Optimise le travail,>
+                                                </ckbutton>
+                                            </child>
+                                        </box >
+                                    </child>
+                                </box >
+                            </child>
+                            <child 0|150>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                    <child pack-start>
+                                        <label labna=Choix de date,>
+                                        </label>
+                                    </child>
+                                    <child pack-start>
+                                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                            <child pack-start>
+                                                <label labna=Jour,>
+                                                </label>
+                                            </child>
+                                            <child pack-start>
+                                                <combotext >
+                                                    <text value=1,visib=TRUE,>
+                                                    </text>
+                                                </combotext >
+                                            </child>
+                                            <child pack-start>
+                                                <label labna=mois,>
+                                                </label>
+                                            </child>
+                                            <child pack-start>
+                                                <combotext >
+                                                    <text value=0,visib=TRUE,>
+                                                    </text>
+                                                </combotext >
+                                            </child>
+                                            <child pack-start>
+                                                <label labna=année,>
+                                                </label>
+                                            </child>
+                                            <child pack-start>
+                                                <combotext >
+                                                    <text value=0,visib=TRUE,>
+                                                    </text>
+                                                </combotext >
+                                            </child>
+                                        </box >
+                                    </child>
+                                </box >
+                            </child>
+                            <child 0|220>
+                                <combotext >
+                                    <text value=Faire un choix,visib=TRUE,>
+                                    </text>
+                                </combotext >
+                            </child>
+                            <child 80|400>
+                                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                                    <child pack-start>
+                                        <label labna=Le corona Virus,>
+                                        </label>
+                                    </child>
+                                    <child pack-start>
+                                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                                            <child pack-start>
+                                                <rdbutton label=Malade,mainrdb=TRUE,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Suspect,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Guéri,>
+                                                </rdbutton>
+                                            </child>
+                                            <child pack-start>
+                                                <rdbutton label=Sain,>
+                                                </rdbutton>
+                                            </child>
+                                        </box >
+                                    </child>
+                                </box >
+                            </child>
+                            <child 80|500>
+                                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                                    <child pack-start>
+                                        <btn mnemonic=OK,back=* { background-image:url("redblackback.jpg");},>
+                                        </btn>
+                                    </child>
+                                    <child pack-start>
+                                        <btn mnemonic=Quitter,>
+                                        </btn>
+                                    </child>
+                                </box >
+                            </child>
+                        </layout>
+                    </child>
+                </scrollwin>
+            </child>
+        </box >
+    </child>
+</window >

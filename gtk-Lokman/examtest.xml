@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window title="My Window" width="666" height="600" x="0" y="0" Red="65535" Green="65535" Blue="65535" icon="prebot.ico" scroll="always">
+    <box orientation="vertical">
+        <menu>
+            <item label="Mon choix"/>
+            <item label="voitre choix">
+                <item label="sous choix1"/>
+                <item label="sous choix2">
+                    <item label="sous choix221"/>
+                    <item label="sous choix222"/>
+                    <item label="sous choix223"/>
+                </item>
+                <item label="sous choix3"/>
+            </item>
+            <item label="Leur choix"/>
+        </menu>
+        <fixed>
+            <label text="Vos connaissance de GTK+" x="0" y="50"/>
+            <box orientation="horizontal" name="test" x="0" y="65">
+                <radiobutton label="Faible" width="75"/>
+                <radiobutton label="Moyen" width="75"/>
+                <radiobutton label="Bien" width="75"/>
+                <radiobutton label="Très Bien" active="yes" width="75"/>
+            </box>
+        </fixed>
+        <fixed>
+            <label text="Vos commentaires sur GTK+" x="0" y="50"/>
+            <box orientation="horizontal" name="test" x="0" y="65">
+                <checkbutton label="Convivial" width="100"/>
+                <checkbutton label="Interessant" active="yes" width="100"/>
+                <checkbutton label="Facile a utiliser" width="100"/>
+                <checkbutton label="Optimise le travail" width="100"/>
+            </box>
+        </fixed>
+        <fixed>
+            <label text="Choix de date" x="0" y="50"/>
+            <box orientation="horizontal" name="testb" x="0" y="65">
+                <box orientation="horizontal" width="100">
+                    <label text="Jour" width="50"/>
+                    <combo>
+                        <item label="1"/>
+                        <item label="2"/>
+                        <item label="3"/>
+                    </combo>
+                </box>
+                <box orientation="horizontal" width="100">
+                    <label text="Moi" width="50"/>
+                    <combo>
+                        <item label="0"/>
+                        <item label="1"/>
+                        <item label="2"/>
+                    </combo>
+                </box>
+                <box orientation="horizontal" width="100">
+                    <label text="Annee" width="50"/>
+                    <combo>
+                        <item label="0"/>
+                        <item label="1"/>
+                        <item label="2"/>
+                    </combo>
+                </box>
+            </box>
+        </fixed>
+        <fixed>
+            <combo y="20">
+                <item label="Faire un choix"/>
+                <item label="1"/>
+                <item label="2"/>
+            </combo>
+        </fixed>
+        <fixed>
+            <label text="Le Corona virus" x="350" y="50"/>
+            <box orientation="horizontal" name="test" x="350" y="65">
+                <radiobutton label="Malade" width="75"/>
+                <radiobutton label="Suspect" width="75"/>
+                <radiobutton label="Gueri" width="75"/>
+                <radiobutton label="Sain" active="yes" width="75"/>
+            </box>
+        </fixed>
+        <fixed>
+            <simplebutton label="OK" width="100" x="350" y="50"/>
+            <simplebutton label="Quitter" width="100" x="500" y="50"/>
+        </fixed>
+    </box>
+</window>

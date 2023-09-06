@@ -1,0 +1,90 @@
+
+<box homogeneous=,orientation=,spacing=,baseline-position=,>
+</box>
+
+
+<entry text=,visibility=,max=,frame=,alignement=,placeholder=,overwriten=,icon-position=,icon-name=,tool-type-text=,purpose=,input-hints=,>
+</entry>
+
+
+<combotext >
+    <text >yyyyyyyyyyyyy</text>
+    <text >yyyyyyyyyyyyy</text>
+    <text >yyyyyyyyyyyyy</text>
+    <text >yyyyyyyyyyyyy</text>
+</combotext >
+
+
+
+<toolbar show-arrow=,icon-size=,style=,>
+<tolitem label=,underline=,icon-name=,tooltip-markup=,tooltip-text=,>
+</tolitem >
+<tolitem label=,underline=,icon-name=,tooltip-markup=,tooltip-text=,>
+</tolitem >
+<tolitem label=,underline=,icon-name=,tooltip-markup=,tooltip-text=,>
+</tolitem >
+<tolitem label=,underline=,icon-name=,tooltip-markup=,tooltip-text=,>
+</tolitem >
+</toolbar >
+
+
+
+
+<menu>
+<item label=aaa,>
+<item label=aaaaa,></item>
+<item label=aaaaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,></item>
+</item>
+</menu>
+
+
+
+
+<menubutton direction=,>
+</menubutton>
+
+
+<linkbutton label=,url=,visited=,>
+</linkbutton>
+
+
+<togglebutton label=,mnemonic=,mode=,inconsistent=,>
+</togglebutton>
+
+
+<checkbutton label=,mnemonic=,mode=,>
+</checkbutton>
+
+
+<radiobutton label=,mnemonic=,mode=,>
+</radiobutton>
+
+
+<image filename=,animation-file=,icon-name=,icon-size=,pixel=,>
+</image>
+
+
+<label label=,mnemonic=,label-markup=,label-markup-mnemonic=,pattern=,justify=,xalign=,yalign=,ellipsis=,selectable=,>
+</label>
+
+<button label=,mnemonic=,icon-name=,icon-size=,relief-type=,underline=,image-position=,>
+</button>
+
+
+<headerbar title=,subtitle=,close-btn=,decoration-layaout=,>
+</headerbar>
+
+
+<window type=,title=,resize=,modal=,req-size=,opacity=,fullscreen=,keep-bellow=,>
+</window>

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1619469866 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\calcul\main.c
+	<stdio.h>
+	<stdlib.h>
+	<gtk/gtk.h>
+

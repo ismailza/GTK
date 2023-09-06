@@ -1,0 +1,104 @@
+
+<search_bar mod=,shocl=,>
+</search_bar>
+
+
+<sclbutton size=,min=,max=,step=,adj=,icon=,value=,>
+</sclbutton>
+
+
+<grid rowspa=,colspa=,rowbas=,>
+</grid>
+
+
+<box hom=,orien=,spac=,baslp=,>
+</box>
+
+
+<entry text=,vis=,mxen=,fram=,alig=,plah=,ovew=,icpos=,icnam=,tooltex=,purp=,hints=,> 
+</entry>
+
+
+<combotext >
+    <text >Du text</text>
+    <text >Du text</text>
+    <text >Du text</text>
+    <text >Du text</text>
+</combotext >
+
+
+
+<toolbar shoar=,icsiz=,styl=,>
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+<tolitem label=,unde=,icnam=,tolmar=,toltex=,>
+</tolitem >
+</toolbar >
+
+
+
+
+
+
+<menu>
+<item label=aaa,>
+<item label=aaaaa,></item>
+<item label=aaaaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,>
+<item label=aaa,>
+<item label=aaa,></item>
+<item label=aaa,></item>
+</item>
+<item label=aaa,></item>
+</item>
+</menu>
+
+
+
+
+<mnbutton dire=,>
+</mnbutton>
+
+
+<linkbutton label=,url=,vise=,>
+</linkbutton>
+
+
+<tglbutton label=,labmne=,mode=,incon=,>
+</tglbutton>
+
+
+<ckbutton label=,labmne=,mode=,>
+</ckbutton>
+
+
+<rdbutton label=,labmne=,mode=,>
+</rdbutton>
+
+
+<image filna=,anmf=,icona=,icons=,pix=,>
+</image>
+
+
+<label labna=,labmn=,labmar=,labmarm=,patt=,just=,xlig=,ylig=,ellip=,selec=,>
+</label>
+
+<btn lab=,mnemonic=,bticf=,ics=,rlt=,usun=,impos=,>
+</btn>
+
+
+<headbar title=,subt=,clbsh=,declay=,>
+</headbar>
+
+
+<window typewin=GTK_WINDOW_TOPLEVEL,title=yasser,resia=TRUE,modal=FALSE,rqs=255|255,opa=0.25,fulls=FALSE,kepb=FALSE,>
+</window>

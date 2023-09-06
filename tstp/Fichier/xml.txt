@@ -1,0 +1,43 @@
+<object class=window id=window1 >
+	<proprety name=Hauteur > 250 </property>
+	<property name=title > test </property>
+	<property name=Largeur > 250 </property>
+	<child >
+	        <object class=textview id=tv1 >
+			    <property name=style > italic </property>
+			    <property name=text > Hello_\n_How_are_u_i'm_hiba_ijjig\n_wbu </property>
+				<property name=size > 100 </property>
+				<property name=foreground > red </property>
+				<property name=weight > gras </property>
+				<property name=background > yellow </property>
+			</object >
+	</child >
+	<child >
+	        <object class=label id=lab1 >
+			    <property name=style > italic </property>
+			    <property name=texte > Hello_\n_How_are_u_i'm_hiba_ijjig\n_wbu </property>
+				<property name=font > calibri </property>
+				<property name=size > 30 </property>
+				<property name=color > red </property>
+				<property name=weight > bold </property>
+			</object >
+	</child >
+	<child >	
+			<object class=button id=button1 >
+				<property name=title > click_me </property>
+			</object >
+	</child >
+	<child >	
+			<object class=button id=button2 >
+				<property name=title > Dont_click_me </property>
+			</object >
+	</child >
+	<child >	
+			<object class=button id=button3 >
+				<property name=title > Yeah_click_me </property>
+			</object >
+	</child >
+	
+	
+			
+</object >

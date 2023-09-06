@@ -1,0 +1,3 @@
+D:/C projects/GTK/exam_tp/cmake-build-debug/CMakeFiles/exam_tp.dir
+D:/C projects/GTK/exam_tp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/C projects/GTK/exam_tp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

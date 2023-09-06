@@ -1,0 +1,19 @@
+# ninja log v5
+1	1073	7032609236151973	CMakeFiles/games.dir/main.c.obj	6d474960331e0629
+10	1623	7032614930256290	CMakeFiles/games.dir/src/gbox-window.c.obj	d8da357d105830b9
+19	1608	7032614930032574	CMakeFiles/games.dir/src/main.c.obj	67dd5f982e0fc321
+1106	1447	7032614040652467	games.exe	c05dabca5712b7de
+29	1598	7032614929971057	CMakeFiles/games.dir/src/gbox-preview.c.obj	36c8db71913026bf
+14	1766	7032617430383461	CMakeFiles/games.dir/src/checkers/chks-check.c.obj	433e0b1dfc19b765
+39	1839	7032617431245043	CMakeFiles/games.dir/src/checkers/chks-field.c.obj	5971f9ac5776081e
+28	1864	7032617431465043	CMakeFiles/games.dir/src/checkers/chks-view.c.obj	fb966c173f995bf5
+1766	3076	7032617443382378	CMakeFiles/games.dir/src/connect-four/cf-check.c.obj	27036a20d33067c5
+1865	3152	7032617444299273	CMakeFiles/games.dir/src/connect-four/cf-field.c.obj	f1ca05e3e9a11d7
+1840	3165	7032617444380383	CMakeFiles/games.dir/src/connect-four/cf-view.c.obj	1c23fcf00a668b43
+3077	4360	7032617456442290	CMakeFiles/games.dir/src/mill/mill-field.c.obj	414d2b086ee4cd07
+3152	4375	7032617456483491	CMakeFiles/games.dir/src/mill/mill-check.c.obj	84c69418e6e4ebc5
+3166	4410	7032617456797980	CMakeFiles/games.dir/src/mill/mill-view.c.obj	53106729b265d2ed
+4360	5610	7032617468784531	CMakeFiles/games.dir/src/tictactoe/ttt-check.c.obj	71828db8b5abc590
+4376	5619	7032617468999078	CMakeFiles/games.dir/src/tictactoe/ttt-view.c.obj	e2301b210719e16b
+4411	5626	7032617469152277	CMakeFiles/games.dir/src/tictactoe/ttt-field.c.obj	8f2ec01984f52d24
+5627	5941	7032617472204687	games.exe	75ef7490b0be670f

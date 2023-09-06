@@ -1,0 +1,206 @@
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=400|400,title=Demo function GTK,>
+    <child container-add>
+        <fixed >
+            <child 0|10>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                    <child pack-start>
+                        <image icona=folder-open,icons=GTK_ICON_SIZE_MENU,>
+                        </image>
+                    </child>
+                    <child pack-start>
+                        <label labna=Vouler vous afficher une image ?,>
+                        </label>
+                    </child>
+                </box >
+            </child>
+            <child 0|50>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=8,>
+                    <child pack-start>
+                        <btn mnemonic=Oui,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Non,signal=affi,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Annuler,>
+                        </btn>
+                    </child>
+                </box >
+            </child>
+            <child 0|100>
+                <image nmfil=D:\\C projects\\GTK\\exam_tp\\imm.jpg,rqs=80|80,signal=TRUE,>
+                </image>
+            </child>
+            <child 0|200>
+                <notebook >
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=1,>
+                        <child pack-start>
+                            <label labna=untitled,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                            <image icona=window-close,icons=GTK_ICON_SIZE_MENU,>
+                            </image>
+                        </child>
+                    </box >
+                    <scrollwin >
+                        <child container-add>
+                            <text >
+                            </text>
+                        </child>
+                    </scrollwin>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=1,>
+                        <child pack-start>
+                            <label labna=tridou,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                            <image icona=window-close,icons=GTK_ICON_SIZE_MENU,>
+                            </image>
+                        </child>
+                    </box >
+                    <scrollwin >
+                        <child container-add>
+                            <text >
+                            </text>
+                        </child>
+                    </scrollwin>
+                    <box orien=GTK_ORIENTATION_HORIZONTAL,spac=1,>
+                        <child pack-start>
+                            <label labna=yasser,>
+                            </label>
+                        </child>
+                        <child pack-start>
+                            <image icona=window-close,icons=GTK_ICON_SIZE_MENU,>
+                            </image>
+                        </child>
+                    </box >
+                    <scrollwin >
+                        <child container-add>
+                            <text >
+                            </text>
+                        </child>
+                    </scrollwin>
+                </notebook >
+            </child>
+        </fixed>
+    </child>
+</window >
+<window typewin=GTK_WINDOW_TOPLEVEL,dfs=400|250,>
+    <child headerbar>
+        <headbar clbsh=TRUE,declay=menu:close,title= ,subt= ,>
+        </headbar>
+    </child>
+    <child container-add>
+        <fixed >
+            <child 0|0>
+                <menu dir=GTK_PACK_DIRECTION_LTR,>
+                    <item mnemo=_SAVE,>
+                    </item >
+                    <item mnemo=_EDIT,>
+                        <item mnemo=SousChoix1,icon=zoom-in,short=Ctrl*,>
+                        </item >
+                        <item mnemo=SousChoix2,icon=zoom-in,short=Ctrl+,>
+                            <item mnemo=Choix221,>
+                            </item >
+                            <item mnemo=Choix222,>
+                            </item >
+                            <item mnemo=Choix223,>
+                            </item >
+                        </item >
+                        <item mnemo=SousChoix3,icon=zoom-in,short=Ctrl-,>
+                        </item >
+                    </item >
+                    <item mnemo=_OPEN,>
+                    </item >
+                </menu >
+            </child>
+            <child 0|50>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=2,>
+                    <child pack-start>
+                        <image icona=folder-open,icons=GTK_ICON_SIZE_MENU,>
+                        </image>
+                    </child>
+                    <child pack-start>
+                        <label labna=Vouler vous enregistrer fichier ?,>
+                        </label>
+                    </child>
+                </box >
+            </child>
+            <child 0|80>
+                <box orien=GTK_ORIENTATION_HORIZONTAL,spac=8,>
+                    <child pack-start>
+                        <btn mnemonic=_Oui,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Non,>
+                        </btn>
+                    </child>
+                    <child pack-start>
+                        <btn lab=Annuler,>
+                        </btn>
+                    </child>
+                </box >
+            </child>
+            <child 0|120>
+                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                    <child pack-start>
+                        <label labna=Test radio button,xlig=0,>
+                        </label>
+                    </child>
+                    <child pack-start>
+                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                            <child pack-start>
+                                <rdbutton label=radio1,mainrdb=TRUE,>
+                                </rdbutton>
+                            </child>
+                            <child pack-start>
+                                <rdbutton label=radio2,>
+                                </rdbutton>
+                            </child>
+                            <child pack-start>
+                                <rdbutton label=radio3,>
+                                </rdbutton>
+                            </child>
+                            <child pack-start>
+                                <rdbutton label=radio4,>
+                                </rdbutton>
+                            </child>
+                        </box >
+                    </child>
+                </box >
+            </child>
+            <child 0|180>
+                <box orien=GTK_ORIENTATION_VERTICAL,spac=2,>
+                    <child pack-start>
+                        <label labna=Test check button,xlig=0,>
+                        </label>
+                    </child>
+                    <child pack-start>
+                        <box hom=,orien=GTK_ORIENTATION_HORIZONTAL,spac=2,border=* { border: black solid 2px;},>
+                            <child pack-start>
+                                <ckbutton label=check1,>
+                                </ckbutton>
+                            </child>
+                            <child pack-start>
+                                <ckbutton label=check2,>
+                                </ckbutton>
+                            </child>
+                            <child pack-start>
+                                <ckbutton label=check3,>
+                                </ckbutton>
+                            </child>
+                            <child pack-start>
+                                <ckbutton label=check4,>
+                                </ckbutton>
+                            </child>
+                        </box >
+                    </child>
+                </box >
+            </child>
+        </fixed>
+    </child>
+</window >

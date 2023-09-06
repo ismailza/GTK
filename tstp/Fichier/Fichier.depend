@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1619881242 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\fichier\main.c
+	"fichier.h"
+
+1619867162 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\fichier\label.c
+	"fichier.h"
+
+1619881461 c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\fichier\fichier.h
+	<gtk/gtk.h>
+	<string.h>
+	<stdlib.h>
+
+1619882509 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\fichier\textview.c
+	"fichier.h"
+

@@ -1,0 +1,81 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc.exe générer le fichier actif",
+            "command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-IC:/msys64/mingw64/bin/../include/gtk-3.0",
+                "-IC:/msys64/mingw64/bin/../include/pango-1.0",
+                "-IC:/msys64/mingw64/bin/../include",
+                "-IC:/msys64/mingw64/bin/../include/glib-2.0",
+                "-IC:/msys64/mingw64/bin/../lib/glib-2.0/include",
+                "-IC:/msys64/mingw64/bin/../include/harfbuzz",
+                "-IC:/msys64/mingw64/bin/../include/freetype2",
+                "-IC:/msys64/mingw64/bin/../include/libpng16",
+                "-IC:/msys64/mingw64/bin/../include/fribidi",
+                "-IC:/msys64/mingw64/bin/../include/cairo",
+                "-IC:/msys64/mingw64/bin/../include/lzo",
+                "-IC:/msys64/mingw64/bin/../include/pixman-1",
+                "-IC:/msys64/mingw64/bin/../include/gdk-pixbuf-2.0",
+                "-IC:/msys64/mingw64/bin/../include/webp",
+                "-IC:/msys64/mingw64/bin/../include/gstreamer-1.0",
+                "-IC:/msys64/mingw64/bin/../include/atk-1.0",
+                "-DLIBDEFLATE_DLL",
+                "${file}",
+                "D:/C-projects/gtk-Lokman/test/Shader.c",
+                "D:/C-projects/gtk-Lokman/test/dyad.c",
+                "-LC:/msys64/mingw64/bin/../lib",
+                "-lgtk-3",
+                "-lgdk-3",
+                "-lz",
+                "-lgdi32",
+                "-limm32",
+                "-lshell32",
+                "-lole32",
+                "-Wl,-luuid",
+                "-lwinmm",
+                "-ldwmapi",
+                "-lsetupapi",
+                "-lcfgmgr32",
+                "-lhid",
+                "-lwinspool",
+                "-lcomctl32",
+                "-lcomdlg32",
+                "-lpangowin32-1.0",
+                "-lpangocairo-1.0",
+                "-lpango-1.0",
+                "-lharfbuzz",
+                "-latk-1.0",
+                "-lcairo-gobject",
+                "-lcairo",
+                "-lgdk_pixbuf-2.0",
+                "-lgio-2.0",
+                "-lgstreamer-1.0",
+                "-lgobject-2.0",
+                "-lglib-2.0",
+                "-lintl",
+                "-lepoxy",
+                "-IC:/libxml/include/libxml2",
+                "-lxml2",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-lws2_32"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Tâche générée par le débogueur."
+        }
+    ],
+    "version": "2.0.0"
+}

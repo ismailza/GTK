@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1620950065 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\projetgtk\box.c
+
+1314898156 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\projetgtk\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1620950759 source:c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\projetgtk\window.c
+	"structures.h"
+
+1620951955 c:\users\dell\desktop\ilisi\ilisi 1\gtk\tstp\projetgtk\structures.h
+	<gtk/gtk.h>
+	<stdio.h>
+	<stdlib.h>
+

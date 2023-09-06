@@ -1,0 +1,200 @@
+<object class=window id=window1 >
+	<property name=Hauteur > 500 </property>
+	<property name=title > WindowTest </property>
+	<property name=Largeur > 500 </property>
+	<child >
+		<object class=frame id=frame1 >
+			<property name=label > game </property>
+			<property name=label_xalign > 0.5 </property>
+			<property name=label_yalign > 0.5 </property>
+			<property name=shadow_type > 2 </property>
+			<property name=hauteur > 250 </property>
+			<property name=largeur > 250 </property>
+			<child >
+				<object class=box id=vbox5 >
+					<property name=homogeneous > false </property>
+					<property name=orientation > 0 </property>
+					<child >
+						<object class=box id=hbox1 >
+							<property name=homogeneous > false </property>
+							<property name=orientation > 1 </property>
+							<child >
+								<object class=menubar id=menu1 >
+									<child >	
+										<object class=menuchamp id=menuchamps1 >
+											<property name=title > file </property>
+											<child >
+												<object class=menuitem id=menuitem1 >
+													<property name=title > quit </property>
+												</object >
+											</child >
+											<child >
+												<object class=sousmenu id=menuitem2 >
+													<property name=title > new </property>
+													<child >
+														<object class=menuitem id=menuitem3 >
+															<property name=title > word </property>
+														</object >
+													</child >
+													<child >
+														<object class=menuitem id=menuitem4 >
+															<property name=title > pdf </property>
+														</object >
+													</child >
+												</object >
+											</child >
+										</object >
+									</child >
+									<child >	
+										<object class=menuchamp id=menuchamps7 >
+											<property name=title > Edit </property>
+											<child >
+												<object class=menuitem id=menuitem5 >
+													<property name=title > CopyAction </property>
+												</object >
+											</child >
+											<child >
+												<object class=menuitem id=menuitem6 >
+													<property name=title > CutAction </property>
+												</object >
+											</child >
+										</object >
+									</child >
+									<child >	
+										<object class=menuchamp id=menuchamps112 >
+											<property name=title > file </property>
+											<child >
+												<object class=menuitem id=menuitem12 >
+													<property name=title > quit </property>
+												</object >
+											</child >
+											<child >
+												<object class=sousmenu id=menuitem22 >
+													<property name=title > new </property>
+													<child >
+														<object class=menuitem id=menuitem32 >
+															<property name=title > word </property>
+														</object >
+													</child >
+													<child >
+														<object class=menuitem id=menuitem42 >
+															<property name=title > pdf </property>
+														</object >
+													</child >
+												</object >
+											</child >
+										</object >
+									</child >
+								</object >
+							</child >
+						</object >
+					</child >
+					<child >
+						<object class=box id=hbox5 >
+							<property name=homogeneous > false </property>
+							<property name=orientation > 0 </property>
+							<property name=spacing > 3 </property>
+							<child >	
+								<object class=label id=lab1 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=padding > 5 </property>
+									<property name=texte > c'est_un_test </property>
+									<property name=color > black </property>
+									<property name=background > white </property>
+									<property name=select > 0 </property>
+									<property name=size > 30 </property>
+								</object >
+							</child >
+							<child >
+								<object class=chekbutton id=chek1 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=label > choix1 </property>
+									<property name=nemonic > 1 </property>
+									<property name=nom > Test </property>
+								</object >
+							</child >
+							<child >
+								<object class=chekbutton id=chek3 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=label > choix3 </property>
+									<property name=nemonic > 1 </property>
+									<property name=nom > Test </property>
+								</object >
+							</child >
+							<child >
+								<object class=chekbutton id=chek2 >
+									<property name=extremite > 0 </property>
+									<property name=expand > false </property>
+									<property name=fill > true </property>
+									<property name=label > choix2 </property>
+									<property name=nemonic > 1 </property>
+									<property name=nom > Test </property>
+								</object >
+							</child >
+							<child >
+								<object class=boxradio id=boxrad1 >
+									<property name=homogeneous > false </property>
+									<property name=orientation > 0 </property>
+									<property name=spacing > 3 </property>
+									<child >	
+										<object class=radios id=groupradio1 >
+											<property name=label > option1 </property>
+											<property name=nom >  radiobtn </property>
+											<property name=nemonic > 1 </property>
+										</object >
+									</child >
+									<child >	
+										<object class=radios id=groupradio2 >
+											<property name=label > option2 </property>
+											<property name=nom >  radiobtn </property>
+											<property name=nemonic > 1 </property>
+										</object >
+									</child >
+									<child >	
+										<object class=radios id=groupradio3 >
+											<property name=label > option3 </property>
+											<property name=nemonic > 1 </property>
+											<property name=nom >  radiobtn </property>
+										</object >
+									</child >
+								</object >
+							</child >
+							<child >
+								<object class=textview id=tv1 >
+									<property name=size > 30 </property>
+									<property name=left-marging > 30 </property>
+									<property name=background > black </property>
+									<property name=foreground > yellow </property>
+									<property name=style > italic </property>
+									<property name=weight > bold </property>
+									<property name=text > Hello_world </property>
+								</object >
+							</child >
+							<child >	
+								<object class=image id=image1 >
+									<property name=chemin > O.png </property>
+								</object >
+							</child >
+							<child >	
+								<object class=button id=button2 >
+									<property name=extremite > 0 </property>
+									<property name=expand > true </property>
+									<property name=fill > true </property>
+									<property name=mnemonic > 1 </property >
+									<property name=padding > 50 </property>
+									<property name=label > quit_ok </property>
+								</object >
+							</child >
+						</object >
+					</child >
+				</object >		
+			</child >
+		</object >	
+	</child >
+</object >
